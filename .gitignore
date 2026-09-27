@@ -1,0 +1,23 @@
+# Challenge data - not ours to redistribute, and 2.4 GB
+dataset/
+
+# Intermediates: parquet tables, candidate/feature npz, models, embeddings (~38 GB)
+work/
+
+# Outputs are regenerable and large: candidate_pairs.tsv alone is 1.3 GB, well
+# past GitHub's 100 MB per-file limit.  Run the pipeline to rebuild them.
+output/
+*_submission.zip
+
+*.npy
+*.npz
+*.lgb
+*.parquet
+*.pkl
+*.tsv
+
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.vscode/
+.idea/

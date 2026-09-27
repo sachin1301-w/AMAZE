@@ -1,0 +1,8 @@
+# Python 3.12.  Install with:  python -m pip install -r requirements.txt
+numpy==2.5.1
+pandas==2.3.3
+pyarrow==25.0.1
+scipy==1.18.0
+scikit-learn==1.7.1
+lightgbm==4.7.0
+rapidfuzz==3.14.6
